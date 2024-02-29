@@ -1,6 +1,8 @@
 Multiclassification Project
 Project by: Gavin Casper
 
+Analyzed data that recorded various measures of packet speed.
+
 This code is dependent on large .csv files to operate from which exceeds GitHub's upload size.
 
 In helpers.py, I only included three functions (no main) in the finished file because I would not ever run that file by itself after the testing phase. These functions are load_data, clean_data, and split_data. The load_data function is used once to take an external .csv file and convert it into a dataFrame for use in the program. The clean_data function replaces the infinity and NAN values (values that can't be used in computations) in the inputted dataFrame and replaced them with 0s. It then gets rid of all non-numeric data in the dataFrame using the private function _get_numeric_data. The split_data function splits that dataFrame into 4 sets of data: X_train, y_train, X_test, and y_test. These are used to train the chosen model and then test the prediction accuracy of that model. It does this using a random mask value to split the data into 80% training and 20% testing.
