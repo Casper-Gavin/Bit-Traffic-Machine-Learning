@@ -1,7 +1,7 @@
 Multiclassification Project
 Project by: Gavin Casper
 
-Analyzed data that recorded various measures of packet speed.
+Checked for similarities in data that recorded various measures of packet speed depending on the day of the week.
 
 This code is dependent on large .csv files to operate from which exceeds GitHub's upload size.
 
